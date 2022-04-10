@@ -1,7 +1,7 @@
 #yaml-conf
 
-##ДЗ №3
-##Модуль для чтения конфигурации из YAML-файла в структуру с помощью библиотеки [go-yaml/yaml](https://github.com/go-yaml/yaml)
+## ДЗ №3
+## Модуль для чтения конфигурации из YAML-файла в структуру с помощью библиотеки [go-yaml/yaml](https://github.com/go-yaml/yaml)
 
 Используется в https://github.com/mulla159/gb-go-step-2/tree/main/homework3
 
