@@ -34,8 +34,7 @@ type AppConfig struct {
 	JaegerURL   CustomURL `yaml:"jaeger_url"`
 	SentryURL   CustomURL `yaml:"sentry_url"`
 	KafkaBroker string    `yaml:"kafka_broker"`
-	SomeAppID   string    `yaml:"some_app_id"`
-	SomeAppKey  string    `yaml:"some_app_key"`
+	AppID       string    `yaml:"some_app_id"`
 }
 
 func (conf *AppConfig) Get(fileName string) {
@@ -67,6 +66,4 @@ func (conf *AppConfig) Print() {
 	fmt.Println("JaegerUrl: ", conf.JaegerURL)
 	fmt.Println("SentryUrl: ", conf.SentryURL)
 	fmt.Println("KafkaBroker: ", conf.KafkaBroker)
-	fmt.Println("SomeAppId: ", conf.SomeAppID)
-	fmt.Println("SomeAppKey: ", conf.SomeAppKey)
 }
